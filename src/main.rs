@@ -1,7 +1,8 @@
 #[allow(dead_code)]
+#[allow(unused_imports)]
 #[allow(unused_variables)]
-mod match_stmt;
+mod lock;
 
 fn main() {
-    match_stmt::match_statement();
+    lock::lock();
 }
