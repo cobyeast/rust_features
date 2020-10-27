@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod structs;
+mod enums;
 
 fn main() {
-    structs::structures();
+    enums::farm();
 }
