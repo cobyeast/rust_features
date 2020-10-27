@@ -6,7 +6,7 @@ enum State {
   Unlocked,
 }
 
-pub fn lock() {
+pub fn match_advanced() {
   let code = String::from("1234");
   let mut state = State::Locked;
   let mut entry = String::new();

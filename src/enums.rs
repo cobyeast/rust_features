@@ -2,10 +2,10 @@ type RefStr = &'static str;
 
 pub enum FarmAnimals {
   Dog,
-  Sheep(RefStr, RefStr, RefStr),
+  Sheep(RefStr, RefStr, RefStr), // Tuple
   Pig,
-  Goat { milk: bool },
-  Cow { milk: bool },
+  Goat { milk: bool }, // Struct
+  Cow { milk: bool },  // Struct
 }
 
 pub fn farm() {

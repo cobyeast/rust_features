@@ -1,4 +1,4 @@
-pub fn match_statement() {
+pub fn match_beginner() {
   let country: u8 = 100;
 
   let code = match country {
