@@ -17,10 +17,16 @@ pub fn closures() {
     println!("{}", inner_two(l(two)));
     let borrow_two = &mut two;
 
-    let inner_three = |x: &mut i32| *x *= 3;
+    // Passed Copy
+    let inner_three = |mut x: i32| x *= 3;
+
+    // Passed Reference
+    let inner_four = |x: &mut i32| *x += 3;
 
     let mut f: i32 = 12;
-    inner_three(&mut f);
+    inner_three(f);
+    inner_four(&mut f);
+
     println!("{}", f);
   }
 }
