@@ -1,4 +1,4 @@
-pub fn t() {
+pub fn options() {
   let mut time: Vec<u8> = vec![];
   let x = 1.0;
   let y = 5.0;

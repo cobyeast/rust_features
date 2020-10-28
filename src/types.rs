@@ -1,3 +1,9 @@
+pub fn strs() -> String {
+    let i = "test".to_string();
+    my_str.remove(1);
+    i
+}
+
 pub fn types() {
     let a: u8 = 255;
     let b: i16 = -127;

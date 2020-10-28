@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod arrays;
+mod slices;
 
 fn main() {
-    arrays::arrays();
+    slices::slices();
 }
