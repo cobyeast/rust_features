@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod t;
+mod arrays;
 
 fn main() {
-    t::t();
+    arrays::arrays();
 }
