@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod unions;
+mod t;
 
 fn main() {
-    unions::unions();
+    t::t();
 }
