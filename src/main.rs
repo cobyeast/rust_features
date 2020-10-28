@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod functions;
+mod closures;
 
 fn main() {
-    functions::functions();
+    closures::closures();
 }
