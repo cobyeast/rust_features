@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod enums;
+mod unions;
 
 fn main() {
-    enums::farm();
+    unions::unions();
 }
