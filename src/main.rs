@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod traits_adv;
+mod overload;
 
 fn main() {
-    traits_adv::traits();
+    overload::overload();
 }
