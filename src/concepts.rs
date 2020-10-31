@@ -27,3 +27,9 @@ pub fn references() {
   local(&c);
   local(&c);
 }
+
+// Print type
+
+fn print_type<T>(_: &T) {
+  println!("{}", std::any::type_name::<T>());
+}
