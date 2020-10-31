@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod statics;
+mod dynamic;
 
 fn main() {
-    statics::statics();
+    dynamic::dynamic();
 }
