@@ -16,7 +16,13 @@ impl Printable for String {
   }
 }
 
-fn print_it<T: Printable + Display>(z: T) {
+// Expensive call
+fn print_expense(z: &Printable) {
+  z.format();
+}
+
+// Inexpensive call
+fn print_inexpense<T: Printable + Display>(z: T) {
   z.format();
 }
 
@@ -24,6 +30,6 @@ pub fn statics() {
   let a = 123;
   let b = "hello".to_string();
 
-  print_it(a);
-  print_it(b);
+  print_inexpense(a);
+  print_inexpense(b);
 }
