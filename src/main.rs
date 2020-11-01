@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod dynamic;
+mod vectors;
 
 fn main() {
-    dynamic::dynamic();
+    vectors::vectors();
 }
