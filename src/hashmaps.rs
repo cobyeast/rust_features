@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-fn hash() {
+fn hashmap() {
   let mut shapes = HashMap::new();
 
   shapes.insert(String::from("triangle"), 3);
@@ -12,7 +12,7 @@ fn hash() {
   {
     // New Scope For Borrowing Value
     let actual = shapes.entry("circle".into()).or_insert(3); // Reference
-    *actual = 0; // Dereference
+    *actual = 0; // Dereference and Change
   }
 
   for (key, val) in shapes {
@@ -21,5 +21,5 @@ fn hash() {
 }
 
 pub fn hashmaps() {
-  hash();
+  hashmap();
 }
