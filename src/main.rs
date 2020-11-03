@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod vectors_adv;
+mod ownership;
 
 fn main() {
-    vectors_adv::vectors();
+    ownership::ownership();
 }
