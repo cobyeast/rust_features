@@ -21,7 +21,7 @@ fn borrow() {
   let mut z = vec![7, 6, 5];
 
   // for i in &z {
-  //   z.push(5); // unable to push (rust feature)
+  //   z.push(5); // unable to push prevents undefined behaviors (rust feature)
   // }
 }
 

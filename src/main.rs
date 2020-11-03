@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod borrowing;
+mod lifetimes;
 
 fn main() {
-    borrowing::borrowing();
+    lifetimes::lifetimes();
 }
