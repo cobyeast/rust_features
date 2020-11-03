@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod ownership;
+mod borrowing;
 
 fn main() {
-    ownership::ownership();
+    borrowing::borrowing();
 }

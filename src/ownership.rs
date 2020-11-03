@@ -3,11 +3,11 @@ fn own() {
 
   {
     let v2 = v;
-    let pnt = |x: Vec<i32>| -> Vec<i32> {
+    let prnt = |x: Vec<i32>| -> Vec<i32> {
       println!("{:?}", x);
       x
     };
-    let v3 = pnt(v2);
+    let v3 = prnt(v2);
     println!("{:?}", v3[0]);
   }
 
