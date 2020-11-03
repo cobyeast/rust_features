@@ -1,4 +1,4 @@
-trait Animal {
+pub trait Animal {
   fn create(name: &'static str) -> Self;
   fn name(&self) -> &'static str;
   fn talk(&self) {
@@ -6,11 +6,11 @@ trait Animal {
   }
 }
 
-struct Human {
+pub struct Human {
   name: &'static str,
 }
 
-struct Cat {
+pub struct Cat {
   name: &'static str,
 }
 
@@ -55,7 +55,7 @@ impl Summable<i32> for Vec<i32> {
 }
 
 // Implement a method for an existing trait Vec<u8>
-impl Summable<u8> for Vec<u8> {
+pub impl Summable<u8> for Vec<u8> {
   fn sum(&self) -> u8 {
     let mut result: u8 = 0;
     for i in self {

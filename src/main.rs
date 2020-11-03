@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod iterators;
+mod vectors_adv;
 
 fn main() {
-    iterators::iterators();
+    vectors_adv::vectors();
 }
