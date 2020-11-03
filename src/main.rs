@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod lifetimes_adv;
+mod reference_count;
 
 fn main() {
-    lifetimes_adv::lifetimes();
+    reference_count::reference_count();
 }
