@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod reference_count;
+mod threads;
 
 fn main() {
-    reference_count::reference_count();
+    threads::arc();
 }
