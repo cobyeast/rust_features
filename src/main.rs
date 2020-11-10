@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod threads;
+mod reference_count_atomic;
 
 fn main() {
-    threads::arc();
+    reference_count_atomic::mutex();
 }
