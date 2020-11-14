@@ -1,8 +1,8 @@
 #[allow(dead_code)]
 #[allow(unused_imports)]
 #[allow(unused_variables)]
-mod reference_count_atomic;
+mod cicular_reference;
 
 fn main() {
-    reference_count_atomic::mutex();
+    cicular_reference::cicular();
 }
